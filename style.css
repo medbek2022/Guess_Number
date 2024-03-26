@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ------------Header ----------- */
+body {
+  background-color: #333;
+  color: #eee;
+  font-family: 'Press Start 2P', system-ui;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  background-color: #eee;
+  padding: 1rem 2rem;
+}
+.titel {
+  text-align: center;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+header {
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+  position: relative;
+}
+.hiddenNumber {
+  background: #eee;
+  color: #333;
+  font-size: 4rem;
+  width: 150px;
+  padding: 1.5rem 0rem;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  bottom: 0%;
+}
+.again {
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+}
+.between {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+}
+.btn {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-family: 'Press Start 2P', system-ui;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+.between {
+  font-size: 1rem;
+}
+#main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* ----------- Left ------------------*/
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+.left .number {
+  width: 200px;
+  height: 5rem;
+  background: inherit;
+  border: 4px solid #eee;
+  margin-bottom: 3rem;
+
+  color: #eee;
+  text-align: center;
+
+  font: inherit;
+  font-size: 2rem;
+}
+/* ----------  Right ---------------- */
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+.right p {
+  text-align: left;
+  width: 100%;
+  padding: 1rem 0rem;
+  padding-left: 10rem;
+}
+.right .message {
+  margin-bottom: 3rem;
+}
